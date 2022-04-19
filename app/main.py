@@ -17,6 +17,8 @@ else:
 @app.route(f'{base_url}')
 def home():
     return render_template('index.html')
+def nft():
+    return render_template('nft.html')
 
 # define additional routes here
 # for example:
